@@ -1,0 +1,3 @@
+user = {"name": "Bob", "age": 30, "is_admin": True}
+print(user["name"])
+print(user, type(user))
