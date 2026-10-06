@@ -1,0 +1,8 @@
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")
+print("Current fruits:")
+for fruit in fruits:
+    print(f"-{fruit}")
+    if "banana" in fruits:
+        fruits.remove("banana")
+        print("/nRemoved banana from the list.")
